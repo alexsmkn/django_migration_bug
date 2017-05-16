@@ -6,7 +6,7 @@ Bug demonstration
 mkdir /tmp/django_migration_bug
 cd /tmp/django_migration_bug
 virtualenv -p python2 env
-. ./env/activate
+. ./env/bin/activate
 git clone https://github.com/alexsmkn/django_migration_bug.git
 cd django_migration_bug
 pip install -r requirements.txt
